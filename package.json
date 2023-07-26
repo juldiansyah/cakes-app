@@ -3,12 +3,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "coverage": "jest --coverage"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "firebase": "^10.1.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "msw": "^1.2.3",
     "next": "latest",
     "next-redux-wrapper": "^8.1.0",
     "react": "^18.2.0",

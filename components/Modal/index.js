@@ -6,9 +6,11 @@ function Modal({
   onProceed,
   proceedText,
 }) {
-  console.log("🚀 ~ file: index.js:9 ~ title:", title);
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[100%] max-h-full bg-[rgba(37,37,37,0.6)]">
+    <div
+      role="modal-cake-app"
+      className="fixed top-0 left-0 right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[100%] max-h-full bg-[rgba(37,37,37,0.6)]"
+    >
       <div className="inline-block relative top-2/4 left-2/4 translate-y-[-50%] translate-x-[-50%] w-3/6">
         <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
           <button
