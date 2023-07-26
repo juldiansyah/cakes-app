@@ -1,4 +1,3 @@
-import fetch from "isomorphic-unfetch";
 const BACKEND_URL = `https://611a268fcbf1b30017eb5527.mockapi.io`;
 
 export const getCakeLists = async (page) => {
